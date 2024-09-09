@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header a {
+    text-decoration: skyblue;
+}
+
+#sobre-mi img{
+    width: 150px;
+    height: 150px;
+}
+.bg-gradient-dark {
+    background: linear-gradient(180deg, #343a40 0%, #495057 100%);
+}
+
+.bg-light {
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .nav {
+        text-align: center;
+    }
+    
+    .nav-item {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
